@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-gestao-espaco-fisico
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: true
+  flyway:
+    baseline-on-migrate: true
+
+app:
+  secret: morra_guilherme_gentili_de_almeida---clovis_suarez_dantas---wendel-campos-bezerra---pedro-henrique-vidigal
